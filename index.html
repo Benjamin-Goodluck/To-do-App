@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic To-Do List</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <button class="toggle-btn" onclick="toggleMode()">🌓</button>
+
+    <div id="todo-list" class="todo-list">
+        <input type="text" id="task" placeholder="Enter task">
+        <input type="datetime-local" id="date-time">
+        <button class="btn" onclick="addTask()">Add Task</button>
+
+        <div id="tasks-container"></div>
+    </div>
+</div>
+
+<script src="script/script.js"> </script>
+
+</body>
+</html>
